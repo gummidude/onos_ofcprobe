@@ -1,0 +1,23 @@
+#oNOS from Scratch tutorial cell
+ 
+# the address of the VM to install the package onto
+export OC1="172.16.45.16"
+#export OC2="172.16.45.17" 
+#export OC2="172.16.45.200"
+#export OC4="172.16.45.201"
+
+# the default address used by ONOS utilities when none are supplied
+export OCI="172.16.45.16"
+ 
+# the ONOS apps to load at startup
+export ONOS_APPS="drivers,openflow,fwd,proxyarp,mobility"
+ 
+# the Mininet VM (if you have one)
+#export OCN="192.168.56.102"
+ 
+# pattern to specify which address to use for inter-ONOS node communication (not used with single-instance core)
+export ONOS_NIC="172.16.45.*"
+
+export ONOS_USER="onos"
+export ONOS_GROUP="onos"
+

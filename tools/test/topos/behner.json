@@ -1,0 +1,15 @@
+{
+  "devices": [
+    { "alias":  "s1", "uri": "of:0001d0bf9cd01380", "mac": "d0bf9cd01381", "annotations": { "name": "HP-SDN#1", "latitude": 42.00, "longitude": -120.00  }, "type": "SWITCH" },
+    { "alias":  "s2", "uri": "of:0001d0bf9cd62080", "mac": "d0bf9cd62081", "annotations": { "name": "HP-SDN#2", "latitude": 42.00, "longitude": -90.00  }, "type": "SWITCH" },
+    { "alias":  "s3", "uri": "of:0001d0bf9cd5dd40", "mac": "d0bf9cd5dd41", "annotations": { "name": "HP-SDN#3", "latitude": 35.00, "longitude": -90.00  }, "type": "SWITCH" },
+    { "alias":  "s4", "uri": "of:0001d0bf9cd5dd42", "mac": "2c600c457a2f", "annotations": { "name": "Quanta-SDN", "latitude": 35.00, "longitude": -120.00  }, "type": "SWITCH" }
+    
+  ],
+  
+  "hosts": [
+    { "alias":  "h1", "mac": "00:1E:68:9A:C8:45", "vlan": 1, "location": "of:0001d0bf9cd62080/9", "ip": "10.0.0.1",  "annotations": { "name": "Host#1", "latitude": 45.00, "longitude":  -80.00 } },
+    { "alias":  "h2", "mac": "00:1E:68:DA:15:69", "vlan": 1, "location": "of:0001d0bf9cd01380/5", "ip": "10.0.0.3",  "annotations": { "name": "Host#2", "latitude": 45.00, "longitude":  -130.00 } }
+    ]
+
+}
